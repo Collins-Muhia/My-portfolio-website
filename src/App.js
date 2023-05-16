@@ -5,7 +5,7 @@ import {AiFillLinkedin, AiFillGithub, AiFillInstagram, AiFillMail, AiFillEnviron
 
 function App() {
   return (
-    <main className='px-8 md:px-20 lg:px-40'>
+    <main className='px-8 md:px-20 lg:px-40 bg-gradient-to-b from-white-900 to-white'>
     
     <Navbar />
 
@@ -23,62 +23,145 @@ function App() {
       <a href='https://github.com/Collins-Muhia/' target='_blank' rel='noopener noreferrer'><AiFillGithub /></a>
       <a href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'><AiFillInstagram /></a>
     </div>
+    <hr className="my-4 border-gray-400 w-1/4 mx-auto"></hr>
 </section>
 
 
-    {/* <section id='service' className=''>
-      <h1 className='text-xl font-medium'>Services I Offer</h1>
+    <section id='service' className=''>
+      <h1 className='text-xl font-medium'>Skills & Experience</h1>
       <p className='mt-1 text-md'>I have experience in building an application and creating cloud architecture as an integration to provide business and consumer solutions. I offer a wide of service, including Frontend & Backend Development, Cloud & IT Solutions Architect, DevOps Architect</p>
 
       <div className='mt-4 flex flex-col md:flex-row gap-8'>
         <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
           <img src='software.png' className='w-48' alt='gambar' />
           <h2 className='text-xl'>Software Development</h2>
-          <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
-          <p className='text-xl '>Tools I Use</p>
+          <p className='text-gray-500'>Design, develop, and maintain software applications</p>
+          <p className='text-xl '></p>
           <ul>
             <li>React</li>
-            <li>Node JS (Express)</li>
-            <li>Python (Flask)</li>
+            <li>Javascript</li>
+            <li>HTML/CSS</li>
+            <li>Tailwind CSS</li>
+            <li>Angular</li>
+            <li>PHP</li>
+            <li>APIs</li>
+            <li>Python</li>
           </ul>
         </div>
+        <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
+          <img src='software.png' className='w-48' alt='gambar' />
+          <h2 className='text-xl'>Hardware & Networking</h2>
+          <p className='text-gray-500'> Design & manage computer networks & infrastructure.</p>
+          <p className='text-xl '></p>
+          <ul>
+            <li>Routers</li>
+            <li>LAN/WAN</li>
+            <li>Switches</li>
+            <li>Firewalls</li>
+            <li>Cybersecurity</li>
+          </ul>
+        </div>
+        <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
+          <img src='software.png' className='w-48' alt='gambar' />
+          <h2 className='text-xl'>Enterprise & Solutions Architecture</h2>
+          <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
+          <p className='text-xl '></p>
+          <ul>
+            <li>TOGAF 9</li>
+            <li>Archimate 3.0</li>
+            <li>Cloud Computing</li>
+            <li>Emerging Technologies</li>
+            <li>ADM Reference</li>
+            <li>AI & Machine Learning</li>
+            <li>Monitoring & Evaluation</li>
+          </ul>
+        </div>
+        
 
         <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
           <img src='cloud.png' className='w-48' alt='gambar' />
-          <h2 className='text-xl'>Cloud & IT Solutions Architect</h2>
-          <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
-          <p className='text-xl'>Tools I Use</p>
+          <h2 className='text-xl'>Data Engineering</h2>
+          <p className='text-gray-500'>Design Databases/ETL Pipelines and Analyze large datasets to extract valuable insights</p>
+          <p className='text-xl'></p>
           <ul>
-            <li>AWS, Azure, Digital Ocean</li>
-            <li>Openstack</li>
-            <li>Kubernetes & Docker</li>
-          </ul>
-        </div>
-
-        <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='ops.png' className='w-48' alt='gambar' />
-          <h2 className='text-xl'>DevOps Architect</h2>
-          <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
-          <p className='text-xl '>Tools I Use</p>
-          <ul>
-            <li>Gitlab</li>
-            <li>Ansible</li>
-            <li></li>
+            <li>MYSQL</li>
+            <li>Linux</li>
+            <li>PowerBI</li>
+            <li>R / Python</li>
+            <li>Oracle / Postgres</li>
+            <li>APACHE Nifi</li>
           </ul>
         </div>
 
       </div>
 
-    </section> */}
+    </section>
 
     <section id='portfolio' className='mt-10'>
-      <h1 className='text-xl font-medium'>Portfolio</h1>
+      <h1 className='text-xl font-medium'>Projects</h1>
       <p className='mt-1 text-md'>Here are some projects that I have managed.</p>
+      {/* <div className='flex flex-col md:flex-row gap-8 mt-4'> */}
+        {/* <div className='w-full md:w-2/6 shadow-md rounded '>
+          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
+            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+          </div>
+          <div className='p-4'>
+            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
+            <p className=''>Dicoding Indonesia</p>
+            <p className='text-sm text-gray-500'>May 2023</p>
+          </div>
+        </div>
+
+        <div className='w-full md:w-2/6 shadow-md rounded '>
+          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
+            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+          </div>
+          <div className='p-4'>
+            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
+            <p className=''>Dicoding Indonesia</p>
+            <p className='text-sm text-gray-500'>May 2023</p>
+          </div>
+        </div>
+
+        <div className='w-full md:w-2/6 shadow-md rounded '>
+          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
+            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+          </div>
+          <div className='p-4'>
+            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
+            <p className=''>Dicoding Indonesia</p>
+            <p className='text-sm text-gray-500'>May 2023</p>
+          </div>
+        </div>
+
+        <div className='w-full md:w-2/6 shadow-md rounded '>
+          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
+            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+          </div>
+          <div className='p-4'>
+            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
+            <p className=''>Dicoding Indonesia</p>
+            <p className='text-sm text-gray-500'>May 2023</p>
+          </div>
+        </div>
+
+        <div className='w-full md:w-2/6 shadow-md rounded '>
+          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
+            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+          </div>
+          <div className='p-4'>
+            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
+            <p className=''>Dicoding Indonesia</p>
+            <p className='text-sm text-gray-500'>May 2023</p>
+          </div>
+        </div>
+      </div> */}
     </section>
+
 
     <section id='license' className='mt-10'>
       <h1 className='text-xl font-medium'>License & Certifications</h1>
-      <p className='mt-1 text-md'>Here are some of the certifications I have.</p>
+      <p className='mt-1 text-md'>Here are just but a few certifications that I have gannered over the time:</p>
       
       <div className='flex flex-col md:flex-row gap-8 mt-4'>
         <div className='w-full md:w-2/6 shadow-md rounded '>
@@ -86,9 +169,9 @@ function App() {
             <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
+            <h1 className='text-xl font-medium'>Degree in Information Technology</h1>
+            <p className=''>Jomo Kenyatta University</p>
+            <p className='text-sm text-gray-500'>April 2021</p>
           </div>
         </div>
 
@@ -97,9 +180,9 @@ function App() {
             <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
+            <h1 className='text-xl font-medium'>TOGAF 9 Level 1 & 2</h1>
+            <p className=''>SkillUP by simplilearn</p>
+            <p className='text-sm text-gray-500'>June 2022</p>
           </div>
         </div>
 
@@ -108,9 +191,9 @@ function App() {
             <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
+            <h1 className='text-xl font-medium'>Six Sigma Yellow Belt</h1>
+            <p className=''>6SIGMAstudy</p>
+            <p className='text-sm text-gray-500'>March 2022</p>
           </div>
         </div>
 
@@ -119,9 +202,9 @@ function App() {
             <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
+            <h1 className='text-xl font-medium'>Intro to Cybersecurity</h1>
+            <p className=''>CISCO</p>
+            <p className='text-sm text-gray-500'>June 2022</p>
           </div>
         </div>
 
@@ -130,11 +213,12 @@ function App() {
             <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
+            <h1 className='text-xl font-medium'>ITIL & COBIT FOUNDATIONS</h1>
+            <p className=''>LinkeIn Learning</p>
+            <p className='text-sm text-gray-500'>July 2022</p>
           </div>
         </div>
+        
       </div>
 
     </section>
@@ -181,42 +265,42 @@ function App() {
     
     </section> */}
 
-    <section id="footer" className='mt-5 rounded bg-black py-8 px-8'>
-      <div className='text-white md:text-center'>
-        <h1 className='font-medium text-lg'>Contact Me</h1>
-        <p>You can reach me through:</p>
+<section id="footer" className='mt-5 rounded bg-gray-800 py-8 px-8'>
+  <div className='text-white md:text-center'>
+    <h1 className='font-medium text-lg'>Contact Me</h1>
+    <p>You can reach me through:</p>
+    <hr className="my-4 border-gray-400 w-1/4 mx-auto"></hr>
 
-        <ul className='md:flex justify-center gap-4'>
-          <li className='flex items-center gap-2'>
-            <AiFillMail />
-            <p>1muhia.js@gmail.com</p>
-          </li>
-          <li className='flex items-center gap-2'>
-            <AiFillEnvironment />
-            <p> KENYA, Nairobi</p>
-          </li>
-          <li className='flex items-center gap-2'>
-            <AiFillPhone/>
-            <p>+254790711149</p>
-          </li>
-        </ul>
+    <ul className='md:flex justify-center gap-4'>
+      <li className='flex items-center gap-2'>
+        <AiFillMail />
+        <p>1muhia.js@gmail.com</p>
+      </li>
+      <li className='flex items-center gap-2'>
+        <AiFillEnvironment />
+        <p> Nairobi, KENYA</p>
+      </li>
+      <li className='flex items-center gap-2'>
+        <AiFillPhone/>
+        <p>+254790711149</p>
+      </li>
+    </ul>
 
-        <div className='flex text-xl text-white gap-4 mt-2 md:justify-center'>
-        <a href='https://www.linkedin.com/in/collins-muhia/' target='_blank' rel='noopener noreferrer'><AiFillLinkedin /></a> 
+    <div className='flex text-xl text-white gap-4 mt-2 md:justify-center'>
+      <a href='https://www.linkedin.com/in/collins-muhia/' target='_blank' rel='noopener noreferrer'><AiFillLinkedin /></a> 
       <a href='https://github.com/Collins-Muhia/' target='_blank' rel='noopener noreferrer'><AiFillGithub /></a>
       <a href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'><AiFillInstagram /></a>
-        </div>
+    </div>
 
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
+    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
 
-        <p className="text-center text-sm text-gray-300 sm:text-center">
-          © 2023
-          <a href="https://dendi.ninja"> Collins Muhia Mungai</a>. All Rights Reserved.
-        </p>
+    <p className="text-center text-sm text-gray-300 sm:text-center">
+      © 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collins Muhia Mungai &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All Rights Reserved.
+    </p>
 
-      </div>
-      
-    </section>
+  </div>
+</section>
+
 
     </main>
   );
