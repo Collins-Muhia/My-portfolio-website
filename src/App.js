@@ -105,65 +105,18 @@ function App() {
     </section>
 
     <section id='portfolio' className='mt-10'>
-      <h1 className='text-xl font-medium'>Projects</h1>
-      <p className='mt-1 text-md'>Here are some projects that I have managed.</p>
-      {/* <div className='flex flex-col md:flex-row gap-8 mt-4'> */}
-        {/* <div className='w-full md:w-2/6 shadow-md rounded '>
-          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
-          </div>
-          <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
-          </div>
-        </div>
+  <h1 className='text-xl font-medium'>Projects</h1>
+  <p className='mt-1 text-md'>Here are some projects that I have managed:</p>
+  <ul className='list-disc'>
+    <li>Expense Tracker</li>
+    <li>Rental Management System</li>
+    <li>Mordern Calculator App</li>
+    <li>Archi Enterprise Architecture Modelling</li>
+    <li>Interactive Dashboard</li>
+    <li>Weather App</li>
+  </ul>
+</section>
 
-        <div className='w-full md:w-2/6 shadow-md rounded '>
-          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
-          </div>
-          <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
-          </div>
-        </div>
-
-        <div className='w-full md:w-2/6 shadow-md rounded '>
-          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
-          </div>
-          <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
-          </div>
-        </div>
-
-        <div className='w-full md:w-2/6 shadow-md rounded '>
-          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
-          </div>
-          <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
-          </div>
-        </div>
-
-        <div className='w-full md:w-2/6 shadow-md rounded '>
-          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
-          </div>
-          <div className='p-4'>
-            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
-            <p className=''>Dicoding Indonesia</p>
-            <p className='text-sm text-gray-500'>May 2023</p>
-          </div>
-        </div>
-      </div> */}
-    </section>
 
 
     <section id='license' className='mt-10'>
