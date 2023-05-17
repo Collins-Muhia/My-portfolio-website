@@ -11,6 +11,7 @@ function App() {
 
     <section id='home' className='min-h-screen text-center mt-4 flex flex-col justify-center '>
     <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src='/profile-pic2.jpg' layout="fill" objectFit="cover" />
     </div>
     <h1 className='my-2 text-3xl md:text-5xl font-medium text-black-500'>COLLINS MUHIA MUNGAI</h1>
@@ -33,7 +34,8 @@ function App() {
 
       <div className='mt-4 flex flex-col md:flex-row gap-8'>
         <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='software.png' className='w-48' alt='gambar' />
+          <img src='https://i.etsystatic.com/27690223/r/il/269f46/2924450775/il_fullxfull.2924450775_abtv.jpg' className='w-48' alt='gambar' />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <h2 className='text-xl'>Software Development</h2>
           <p className='text-gray-500'>Design, develop, and maintain software applications</p>
           <p className='text-xl '></p>
@@ -49,20 +51,24 @@ function App() {
           </ul>
         </div>
         <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='software.png' className='w-48' alt='gambar' />
-          <h2 className='text-xl'>Hardware & Networking</h2>
-          <p className='text-gray-500'> Design & manage computer networks & infrastructure.</p>
-          <p className='text-xl '></p>
-          <ul>
-            <li>Routers</li>
-            <li>LAN/WAN</li>
-            <li>Switches</li>
-            <li>Firewalls</li>
-            <li>Cybersecurity</li>
-          </ul>
-        </div>
+  <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png' className='w-48 mt-4 mb-2' alt='gambar' />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h2 className='text-xl'>Hardware & Networking</h2>
+  <p className='text-gray-500'>Design & manage computer networks & infrastructure.</p>
+  <p className='text-xl'></p>
+  <ul>
+    <li>Routers</li>
+    <li>LAN/WAN</li>
+    <li>Switches</li>
+    <li>Firewalls</li>
+    <li>Cybersecurity</li>
+  </ul>
+</div>
+
+
+
         <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='software.png' className='w-48' alt='gambar' />
+          <img src='https://pbs.twimg.com/media/DbBNKUVW0AAXAQG.jpg' className='w-48' alt='gambar' />
           <h2 className='text-xl'>Enterprise & Solutions Architecture</h2>
           <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
           <p className='text-xl '></p>
@@ -79,7 +85,8 @@ function App() {
         
 
         <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='cloud.png' className='w-48' alt='gambar' />
+          <img src='https://i.pinimg.com/originals/f4/e9/f0/f4e9f08970b004ecef7c6d8535ce6736.png' className='w-48' alt='gambar' />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <h2 className='text-xl'>Data Engineering</h2>
           <p className='text-gray-500'>Design Databases/ETL Pipelines and Analyze large datasets to extract valuable insights</p>
           <p className='text-xl'></p>
@@ -166,7 +173,7 @@ function App() {
       <div className='flex flex-col md:flex-row gap-8 mt-4'>
         <div className='w-full md:w-2/6 shadow-md rounded '>
           <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+            <img src='https://seofiles.s3.amazonaws.com/seo/media/uploads/2018/10/22/bachelor-degree.jpg' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
             <h1 className='text-xl font-medium'>Degree in Information Technology</h1>
@@ -177,7 +184,7 @@ function App() {
 
         <div className='w-full md:w-2/6 shadow-md rounded '>
           <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+            <img src='https://media.licdn.com/dms/image/C4E12AQEIrOM3Oe6_LQ/article-cover_image-shrink_600_2000/0/1520043183039?e=2147483647&v=beta&t=BtsfWu-xfUg0Gd-yGM_Zi8FtCw29Zck2cOC8grVyrq8' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
             <h1 className='text-xl font-medium'>TOGAF 9 Level 1 & 2</h1>
@@ -188,7 +195,7 @@ function App() {
 
         <div className='w-full md:w-2/6 shadow-md rounded '>
           <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+            <img src='https://www.marshall.usc.edu/sites/default/files/inline-images/GSCM_Lean_Six_Sigma_Yellow_1.png' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
             <h1 className='text-xl font-medium'>Six Sigma Yellow Belt</h1>
@@ -199,7 +206,7 @@ function App() {
 
         <div className='w-full md:w-2/6 shadow-md rounded '>
           <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+            <img src='https://images.credly.com/images/cd769843-4907-4d1a-9702-0512eb87ae6e/cisco_ccnp_security.png' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
             <h1 className='text-xl font-medium'>Intro to Cybersecurity</h1>
@@ -210,7 +217,7 @@ function App() {
 
         <div className='w-full md:w-2/6 shadow-md rounded '>
           <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+            <img src='https://www.learningcert.com/wp-content/uploads/cobit-1114-450.png' layout="fill" objectFit="cover"/>
           </div>
           <div className='p-4'>
             <h1 className='text-xl font-medium'>ITIL & COBIT FOUNDATIONS</h1>

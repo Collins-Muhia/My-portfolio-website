@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 
 export default function Navbar() {
-  const [isBackgroundWhite, setBackgroundWhite] = useState(true);
+  const [isBackgroundWhite, setBackgroundWhite] = useState(false); // Update initial state to false
 
   const handleBackgroundToggle = () => {
     setBackgroundWhite(!isBackgroundWhite);
